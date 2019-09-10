@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\pics",
+    "\\public\\stylesheets",
+    "\\views",
+    "\\views\\partials"
+  ],
+  "SelectedNode": "\\views\\partials\\header_results.ejs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,54 @@
+<% include ./partials/header_results %>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col text-center headers">
+      <h2> Your starting location: <em><%= location %></em> </h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center headers" >
+      <h4>You have searched by: <em><%= term %></em></h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center headers">
+      <h3>Your result: </h3><h1 class ="bottom_border"><em><%= name %></em></h1>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-sm-6">
+      <div id ="google_map_holder">
+          <div id="google_map">
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div>
+        <img src="<%= image %>" class = "rounded img-fluid">
+      </div>
+    </div>
+  </div>
+  
+  <a href="<%= yelpURL%>"><div type="button" class="btn btn-link col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3 mx-3 transparent white_font">
+        <img src="pics/button2.png" class="img-fluid">
+        <h6 size="auto" class="font_size centered wrap-around col-9"><%= name %>'s <br/> Yelp Link</h6>
+      </div></a>
+      <a href=""><div type="button" class="btn btn-link col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3 mx-3 transparent white_font">
+        <img src="pics/button3.png" class="img-fluid">
+        <h6 size="auto" class="font_size text centered col-9">Choose another <br/> restaurant</h6>
+      </div></a>
+      <a href="/"><div type="button" class="btn btn-link col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3 transparent white_font">
+        <img src="pics/button4.png" class="img-fluid">
+        <h6 class="font_size text centered col-9">Choose again</h6>
+      </div></a>
+</div>
+
+
+    <% include ./partials/footer_results %>

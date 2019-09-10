@@ -1,0 +1,23 @@
+{
+  "name": "foodpicker",
+  "version": "1.0.0",
+  "description": "picking a random food place close to user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calvin Gao",
+  "license": "ISC",
+  "dependencies": {
+    "amd-loader": "0.0.8",
+    "brfs": "^2.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "rfs": "^9.0.0",
+    "yelp-fusion": "^3.0.0"
+  },
+  "devDependencies": {}
+}
